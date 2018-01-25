@@ -30,7 +30,7 @@ RUN echo 'pref("extensions.torlauncher.prompt_at_startup", false);' >> /home/use
     echo 'pref("extensions.torbutton.resize_new_windows", 0);' >> /home/user/tor-browser_en-US/Browser/TorBrowser/Data/Browser/profile.default/preferences/extension-overrides.js && \
 # Don't preload hovered links
     echo 'pref("network.http.speculative-parallel-limit", 0);' >> /home/user/tor-browser_en-US/Browser/TorBrowser/Data/Browser/profile.default/preferences/extension-overrides.js && \
-# Change engine to Startpage - DDG is pretty slow with no JS
+# Change search engine to Startpage - DDG is pretty slow with no JS
     echo 'pref("browser.search.order.extra.1", "Startpage");' >> /home/user/tor-browser_en-US/Browser/TorBrowser/Data/Browser/profile.default/preferences/extension-overrides.js && \
     echo 'pref("browser.search.defaultenginename", "Startpage");' >> /home/user/tor-browser_en-US/Browser/TorBrowser/Data/Browser/profile.default/preferences/extension-overrides.js
 
