@@ -35,4 +35,4 @@ RUN echo 'pref("extensions.torlauncher.prompt_at_startup", false);' >> /home/use
     echo 'pref("browser.search.defaultenginename", "Startpage");' >> /home/user/tor-browser_en-US/Browser/TorBrowser/Data/Browser/profile.default/preferences/extension-overrides.js
 
 # It's go time
-CMD cd /home/user/tor-browser_en-US && ./start-tor-browser.desktop --verbose
+CMD cd /home/user/tor-browser_en-US && exec ./start-tor-browser.desktop --verbose
