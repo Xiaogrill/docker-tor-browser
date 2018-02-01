@@ -6,5 +6,5 @@ if [ `id -u` != 0 ]; then
   exec sudo `realpath $0` "$@"
 fi
 
-rm -r /root/docker/tor/tor $INSTALL_PREFIX/tor
+rm -r /root/docker/tor $INSTALL_PREFIX/tor
 docker rmi tor
